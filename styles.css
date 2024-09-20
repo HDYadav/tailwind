@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins';
+    background-color: #F1F6F9;
+
+}
+input:focus{
+     outline: 0;
+}
+.modal-footer{
+    border-radius: 10px 10px 5px 5px;
+    border-top: 1px solid #DADCDE;
+    background: #FFF;
+}
+.cancel-btn{ border: 1px solid #EAE2E2; }
+.save-btn{ border: 1px solid #123251; }
+.bi-plus, .bi-pencil { color: #2C495D; }
+
+
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+      width: 10px; /* Adjust width as needed */
+    }
+    .scrollbar::-webkit-scrollbar-track {
+      background: #f7f4ed; /* Track background color */
+      border-radius: 10px; /* Rounded corners */
+    }
+    .scrollbar::-webkit-scrollbar-thumb {
+      background: #e0cbcb; /* Thumb background color */
+      border-radius: 10px; /* Rounded corners for thumb */
+      border: 3px solid #f6f7ed; /* Add a border */
+    }
+    .scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #c0a0b9; /* Change on hover */
+    }
+  }
+  
+
+  .menubottomborder{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+  }
+/* 
+  table tbody tr td{
+    border: 2px solid rgba(29, 68, 105, 0.20) !important;
+  } */
+
+
+
+
+  .chk-color{
+    color:#F16136;
+    }
+    .chk-color.grey{
+        color:#D9D9D9;
+    }
